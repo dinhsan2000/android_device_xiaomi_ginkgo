@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ginkgo.mk
+    $(LOCAL_DIR)/aosp_ginkgo.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_lavender-user \
+    aosp_lavender-userdebug \
+    aosp_lavender-eng
